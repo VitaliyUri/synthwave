@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mogo</title>
+    <script src="https://kit.fontawesome.com/1447c0af92.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;0,400;0,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class ="header__inner">
+                <a class="header__logo" href="#intro" data-scroll="#intro"><h1>Synth Wave</h1></a>
+                <nav class="nav" id="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a class="nav__link" href="#about-us" data-scroll="#about-us">About</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#service" data-scroll="#service">Service</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#gallery" data-scroll="#gallery">Gallery</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#blog" data-scroll="#blog">Blog</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#contacts" data-scroll="#contacts">Contact</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a></li>
+                        <li class="nav__item"><a class="nav__link" href="#">
+                            <i class="fas fa-search"></i>
+                        </a></li>
+                    </ul>
+                </nav>
+                <button class="nav-toggle" type="button" id="nav_toggle">
+                    <span class="nav-toggle__item first"></span>
+                    <span class="nav-toggle__item second"></span>
+                    <span class="nav-toggle__item third"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class="content">
+        <!-- Intro -->
+        <div class="intro bg" id="intro" style="background-image: url(images/intro-bg.jpg);">
+            <div class="container">
+                <div class="intro__inner">
+                    <h2 class="intro__suptitle _anim-items _anim-no-repeat">Sound of 80's</h2>
+                    <h1 class="intro__title _anim-items _anim-no-repeat">Synth Wave</h1>
+                    <a href="#about-us" class="btn">More</a>
+                </div>
+                <div class="slider _anim-items _anim-no-repeat">
+                    <div class="slider__item active">
+                        <span class="slider__num">01</span>
+                        <span class="slider__text">Synthesizers</span>
+                    </div>
+                    <div class="slider__item">
+                        <span class="slider__num">02</span>
+                        <span class="slider__text">Samplers</span>
+                    </div>
+                    <div class="slider__item">
+                        <span class="slider__num">03</span>
+                        <span class="slider__text">Drum Machines</span>
+                    </div>
+                    <div class="slider__item">
+                        <span class="slider__num">04</span>
+                        <span class="slider__text">Sequencer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about-us -->
+        <section class="section about" id="about-us">
+            <div class="container">
+                <div class="section__header">
+                    <h3 class="section__suptitle _anim-items _anim-no-repeat">What we do</h3>
+                    <h2 class="section__title _anim-items _anim-no-repeat">About us</h2>
+                    <div class="section__text _anim-items _anim-no-repeat">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto odit velit veniam possimus impedit placeat commodi, eligendi reiciendis eum enim quibusdam repellat molestiae animi! Harum perferendis voluptatibus velit quia saepe aspernatur sit non quo nobis aliquid totam delectus laudantium, ducimus, dolore atque aut laboriosam quaerat vitae rerum soluta. Quos voluptates voluptatum culpa similique expedita quibusdam iusto optio tempore dolor, non velit corporis deserunt ducimus nisi unde molestias sed? Sapiente, labore. Rerum sed ullam, voluptas nihil quod qui, asperiores porro incidunt delectus, animi voluptatum quis voluptatibus suscipit nesciunt quibusdam earum itaque modi maxime est soluta et ipsam nobis dignissimos doloribus? Maxime!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__item _anim-items _anim-items--1 _anim-no-repeat">
+                        <div class="card__inner">
+                            <div class="card__img">
+                                <img src="images/synthesizer-g13b5d8624_1920.jpg" alt="">
+                            </div>
+                            <div class="card__text">Synthesizers</div>
+                        </div>
+                    </div>
+                    <div class="card__item _anim-items _anim-no-repeat">
+                        <div class="card__inner">
+                            <div class="card__img">
+                                <img src="images/wepik-20211015-21176.jpg" alt="">
+                            </div>
+                            <div class="card__text">drum muchines</div>
+                        </div>
+                    </div>
+                    <div class="card__item _anim-items _anim-items--2 _anim-no-repeat">
+                        <div class="card__inner">
+                            <div class="card__img">
+                                <img src="images/studio-g858a532d0_1920.jpg" alt="">
+                            </div>
+                            <div class="card__text">Audio Mixers</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- statistics -->
+        <div class="statistics bg" style="background-image: url(images/statistics-bg.webp);">
+            <div class="container">
+                <div class="stat">
+                    <div class="stat__item _anim-items _anim-items--1 _anim-no-repeat">
+                        <div class="stat__count">146</div>
+                        <div class="stat__text">Synthesizers</div>
+                    </div>
+                    <div class="stat__item _anim-items _anim-items--2 _anim-no-repeat">
+                        <div class="stat__count">87</div>
+                        <div class="stat__text">Drum Machines</div>
+                    </div>
+                    <div class="stat__item _anim-items _anim-items--3 _anim-no-repeat">
+                        <div class="stat__count">61</div>
+                        <div class="stat__text">Samplers</div>
+                    </div>
+                    <div class="stat__item _anim-items _anim-items--4 _anim-no-repeat">
+                        <div class="stat__count">94</div>
+                        <div class="stat__text">Sequencer</div>
+                    </div>
+                    <div class="stat__item _anim-items _anim-items--5 _anim-no-repeat">
+                        <div class="stat__count">42</div>
+                        <div class="stat__text">Saxaphones</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- services -->
+        <section class="section">
+            <div class="container">
+                <div class="section__header">
+                    <h3 class="section__suptitle">See Our</h3>
+                    <h2 class="section__title">Equipment for</h2>
+                </div>
+                <div class="services">
+                    <div class="services__item _anim-items _anim-no-repeat">
+                        <i class="fas fa-headphones services__icon"></i>
+                        <div class="services__title">Audio</div>
+                        <div class="services__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, ipsum!</div>
+                    </div>
+                    <div class="services__item _anim-items _anim-items--1 _anim-no-repeat">
+                        <i class="fas fa-globe services__icon"></i>
+                        <div class="services__title">Light</div>
+                        <div class="services__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint magnam a aliquam officia?</div>
+                    </div>
+                    <div class="services__item _anim-items _anim-no-repeat">
+                        <i class="fas fa-compact-disc services__icon"></i>
+                        <div class="services__title">DJ'ing</div>
+                        <div class="services__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, exercitationem laborum. Enim, illum. Amet enim aliquid blanditiis quidem iure aspernatur.</div>
+                    </div>
+                </div>
+                <hr>
+                <div class="services">
+                    <div class="services__item _anim-items _anim-no-repeat">
+                        <i class="fas fa-headphones services__icon"></i>
+                        <div class="services__title">Audio</div>
+                        <div class="services__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, ipsum!</div>
+                    </div>
+                    <div class="services__item _anim-items _anim-items--1 _anim-no-repeat">
+                        <i class="fas fa-globe services__icon"></i>
+                        <div class="services__title">Light</div>
+                        <div class="services__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sint magnam a aliquam officia?</div>
+                    </div>
+                    <div class="services__item _anim-items _anim-no-repeat">
+                        <i class="fas fa-compact-disc services__icon"></i>
+                        <div class="services__title">DJ'ing</div>
+                        <div class="services__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, exercitationem laborum. Enim, illum. Amet enim aliquid blanditiis quidem iure aspernatur.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- devices -->
+        <section class="section section--devices">
+            <div class="container">
+                <div class="section__header">
+                    <h3 class="section__suptitle">The latest equipment</h3>
+                    <h2 class="section__title">For your creativity</h2>
+                </div>
+                <div class="devices">
+                    <img class="devices__item _anim-items _anim-items--1 _anim-no-repeat" src="images/synthesizer-devices.png" alt="">
+                    <!-- <img class="devices__item devices__item--smartphone" width="400px" src="https://shop.samsung.com/ie/images/products/27522/14672/2000x2000/SM-G991BZADEUA.webp" alt="">
+                    <img class="devices__item" width="800px" src="https://cdn-reichelt.de/bilder/web/xxl_ws/E910/SAMSUNG_T870_SI_05.png" alt=""> -->
+                </div>
+            </div>
+        </section>
+        <!-- service -->
+        <section class="section" id="service">
+            <div class="container">
+                <div class="section__header">
+                    <h3 class="section__suptitle">Service</h3>
+                    <h2 class="section__title">What we do</h2>
+                    <div class="section__text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto odit velit veniam possimus impedit placeat commodi, eligendi reiciendis eum enim quibusdam repellat molestiae animi!</p>
+                    </div>
+                </div>
+                <div class="wedo">
+                    <div class="wedo__item _anim-items _anim-no-repeat">
+                        <img src="images/foxy7.jpg" alt="">
+                    </div>
+                    <div class="wedo__item">
+                        <div class="accordion">
+                            <div class="accordion__item _anim-items _anim-items--1 _anim-no-repeat" data-collapse="#audio">
+                                <div class="accordion__header">
+                                    <i class="fas fa-volume-up accordion__icon"></i>
+                                    <div class="accordion__title">AUDIO</div>
+                                </div>
+                                <div class="accordion__content" id="audio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis placeat ad nostrum doloribus nesciunt quo. Consequuntur architecto eum delectus necessitatibus!</div>
+                            </div>
+                            <div class="accordion__item _anim-items _anim-items--2 _anim-no-repeat" data-collapse="#recording">
+                                <div class="accordion__header">
+                                    <i class="fas fa-microphone accordion__icon"></i>
+                                    <div class="accordion__title">RECORDING</div>
+                                </div>
+                                <div class="accordion__content" id="recording">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis placeat ad nostrum doloribus nesciunt quo. Consequuntur architecto eum delectus necessitatibus!</div>
+                            </div>
+                            <div class="accordion__item _anim-items _anim-items--3 _anim-no-repeat" data-collapse="#light">
+                                <div class="accordion__header">
+                                    <i class="fas fa-lightbulb accordion__icon"></i>
+                                    <div class="accordion__title">Light</div>
+                                </div>
+                                <div class="accordion__content" id="light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis placeat ad nostrum doloribus nesciunt quo. Consequuntur architecto eum delectus necessitatibus!</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- reviews -->
+        <div class="section section--purple _anim-items _anim-no-repeat">
+            <div class="container">
+                <div class="reviews">
+                    <div class="reviews__item">
+                        <div class="reviews__item-wrapper">
+                            <img src="images/foxy6.jpg" alt="" class="reviews__photo">
+                            <div class="reviews__content">
+                                <div class="reviews__text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, animi dignissimos! Dolorum similique quibusdam natus."</div>
+                                <div class="reviews__author">Synth Wave</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__item">
+                        <div class="reviews__item-wrapper">
+                            <img src="images/foxy1.jpg" alt="" class="reviews__photo">
+                            <div class="reviews__content">
+                                <div class="reviews__text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, animi dignissimos! Dolorum similique quibusdam natus."</div>
+                                <div class="reviews__author">Synth Wave</div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- team -->
+        <section class="section">
+            <div class="container">
+                <div class="section__header">
+                    <a name="about-us" href=""></a>
+                    <h3 class="section__suptitle">Who we are</h3>
+                    <h2 class="section__title">Meet our team</h2>
+                    <div class="section__text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto odit velit veniam possimus impedit placeat commodi, eligendi reiciendis eum enim quibusdam repellat molestiae animi!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__item _anim-items _anim-items--1 _anim-no-repeat">
+                        <div class="card__inner">
+                            <div class="card__img">
+                                <img src="images/pexels-kindel.jpg" alt="">
+                            </div>
+                            <div class="card__text">
+                                <div class="social">
+                                    <a href="#" class="social__item" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#" class="social__item" target="_blank">
+                                        <i class="fab fa-vk"></i>
+                                    </a>
+                                    <a href="#" class="social__item" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__info">
+                            <div class="card__name">Meyer Friedrich</div>
+                            <div class="card__prof">DJ</div>
+                        </div>
+                    </div>
+                    <div class="card__item _anim-items _anim-no-repeat">
+                        <div class="card__inner">
+                            <div class="card__img">
+                                <img height="" src="images/pexels-spencer-selover-775358.jpg" alt="">
+                            </div>
+                            <div class="card__text">
+                                <div class="social">
+                                    <a href="#" class="social__item" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#" class="social__item" target="_blank">
+                                        <i class="fab fa-vk"></i>
+                                    </a>
+                                    <a href="#" class="social__item" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#" class="social__item" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__info">
+                            <div class="card__name">Wagner Richard</div>
+                            <div class="card__prof">Sound Editor</div>
+                        </div>
+                    </div>
+                    <div class="card__item _anim-items _anim-items--2 _anim-no-repeat">
+                        <div class="card__inner">
+                            <div class="card__img">
+                                <img src="images/pexels-thirdman-8063394.jpg" alt="">
+                            </div>
+                            <div class="card__text">
+                                <div class="social">
+                                    <a href="#" class="social__item" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#" class="social__item" target="_blank">
+                                        <i class="fab fa-vk"></i>
+                                    </a>
+                                    <a href="#" class="social__item" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#" class="social__item" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="#" class="social__item" target="_blank">
+                                        <i class="fab fa-soundcloud"></i>
+                                    </a>
+                                </div>    
+                            </div>
+                        </div>
+                        <div class="card__info">
+                            <div class="card__name">Fischer Axel</div>
+                            <div class="card__prof">Customizer</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- gallery -->
+        <section class="section" id="gallery">
+            <div class="container">
+                <div class="section__header">
+                    <a name="about-us" href=""></a>
+                    <h3 class="section__suptitle">Our things</h3>
+                    <h2 class="section__title">some of instruments</h2>
+                    <div class="section__text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto odit velit veniam possimus impedit placeat commodi, eligendi reiciendis eum enim quibusdam repellat molestiae animi!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="gallery__col">
+                    <div class="gallery__item _anim-items _anim-items--1 _anim-no-repeat">
+                        <a href="images/wepik-20211015-211457.jpg" data-fancybox="gallery-1">
+                            <img src="images/wepik-20211015-211457.jpg" alt="" class="gallery__img">
+                        </a>
+                        <div class="gallery__info">
+                            <div class="gallery__title">
+                                Synthesizer
+                            </div>
+                            <div class="gallery__text">
+                                a lot of keys
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery__item _anim-items _anim-items--1 _anim-no-repeat">
+                        <a href="images/wepik-20211015-21176.jpg" data-fancybox="gallery-1">
+                            <img src="images/wepik-20211015-21176.jpg" alt="" class="gallery__img">
+                        </a>
+                        <div class="gallery__info">
+                            <div class="gallery__title">
+                                Drum Maschine
+                            </div>
+                            <div class="gallery__text">
+                                a lot of different keys
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery__col">
+                    <div class="gallery__item _anim-items _anim-no-repeat">
+                        <a href="images/wepik-20211015-212222.jpg" data-fancybox="gallery-1">
+                            <img src="images/wepik-20211015-212222.jpg" alt="" class="gallery__img">
+                        </a>
+                        <div class="gallery__info">
+                            <div class="gallery__title">
+                                Samler
+                            </div>
+                            <div class="gallery__text">
+                                just a switcher
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery__item _anim-items _anim-no-repeat">
+                        <a href="images/foxy7.jpg" data-fancybox="gallery-1">
+                            <img src="images/foxy7.jpg" alt="" class="gallery__img">
+                        </a>
+                        <div class="gallery__info">
+                            <div class="gallery__title">
+                                Synthesizer
+                            </div>
+                            <div class="gallery__text">
+                                a lot of keys
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery__col gallery__col--big">
+                    <div class="gallery__item _anim-items _anim-items--2 _anim-no-repeat">
+                        <a href="images/foxyvertical2.jpg" data-fancybox="gallery-1">
+                            <img src="images/foxyvertical2.jpg" alt="" class="gallery__img">
+                        </a>
+                        <div class="gallery__info">
+                            <div class="gallery__title">
+                                Foxy
+                            </div>
+                            <div class="gallery__text">
+                                just a foxy
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery__col">
+                    <div class="gallery__item _anim-items _anim-items--3 _anim-no-repeat">
+                        <a href="images/wepik-20211015-212222.jpg" data-fancybox="gallery-1">
+                            <img src="images/wepik-20211015-212222.jpg" alt="" class="gallery__img">
+                        </a>
+                        <div class="gallery__info">
+                            <div class="gallery__title">
+                                Samler
+                            </div>
+                            <div class="gallery__text">
+                                just a switcher
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery__item _anim-items _anim-items--3 _anim-no-repeat">
+                        <a href="images/wepik-20211015-21176.jpg" data-fancybox="gallery-1">
+                            <img src="images/wepik-20211015-21176.jpg" alt="" class="gallery__img">
+                        </a>
+                        <div class="gallery__info">
+                            <div class="gallery__title">
+                                Drum Maschine
+                            </div>
+                            <div class="gallery__text">
+                                a lot of different keys
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- reviews -->
+        <div class="section _anim-items _anim-no-repeat">
+            <div class="container">
+                <div class="reviews">
+                    <div class="reviews__item">
+                        <div class="reviews__item-wrapper">
+                            <img src="images/foxy3.jpg" alt="" class="reviews__photo">
+                            <div class="reviews__content">
+                                <div class="reviews__text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, animi dignissimos! Dolorum similique quibusdam natus."</div>
+                                <div class="reviews__author">Synth Wave</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__item">
+                        <div class="reviews__item-wrapper">
+                            <img src="images/foxy4.jpg" alt="" class="reviews__photo">
+                            <div class="reviews__content">
+                                <div class="reviews__text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, animi dignissimos! Dolorum similique quibusdam natus."</div>
+                                <div class="reviews__author">Synth Wave</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- clients -->
+        <section class="section section--purple">
+            <div class="container">
+                <div class="section__header">
+                    <a name="about-us" href=""></a>
+                    <h3 class="section__suptitle">What people think</h3>
+                    <h2 class="section__title">Reviews</h2>
+                </div>
+                <div class="clients">
+                    <div class="clients__item _anim-items _anim-items--1 _anim-no-repeat">
+                        <img src="images/clients/1.png" alt="" class="clients__photo">
+                        <div class="clients__content">
+                            <div class="clients__name">Feiga Shlafrock</div>
+                            <div class="clients__prof">Musician</div>
+                            <div class="clients__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia culpa sed est accusamus sit tempore?</div>
+                        </div>
+                    </div>
+                    <div class="clients__item _anim-items _anim-no-repeat">
+                        <img src="images/clients/2.png" alt="" class="clients__photo">
+                        <div class="clients__content">
+                            <div class="clients__name">Yeguda Dervish</div>
+                            <div class="clients__prof">Music Editor</div>
+                            <div class="clients__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia culpa sed est accusamus sit tempore?</div>
+                        </div>
+                    </div>
+                    <div class="clients__item _anim-items _anim-items--2 _anim-no-repeat">
+                        <img src="images/clients/3.png" alt="" class="clients__photo">
+                        <div class="clients__content">
+                            <div class="clients__name">Abram Shiling</div>
+                            <div class="clients__prof">Arranger</div>
+                            <div class="clients__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia culpa sed est accusamus sit tempore?</div>
+                        </div>
+                    </div>
+                    <div class="clients__item _anim-items _anim-items--3 _anim-no-repeat">
+                        <img src="images/clients/4.png" alt="" class="clients__photo">
+                        <div class="clients__content">
+                            <div class="clients__name">Yoni Vaker</div>
+                            <div class="clients__prof">Sound Designer</div>
+                            <div class="clients__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia culpa sed est accusamus sit tempore?</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- blog -->
+        <section class="section" id="blog">
+            <div class="container">
+                <div class="section__header">
+                    <a name="about-us" href=""></a>
+                    <h3 class="section__suptitle">Our stories</h3>
+                    <h2 class="section__title">latest in blog</h2>
+                </div>
+                <div class="blog">
+                    <div class="blog__item _anim-items _anim-items--1 _anim-no-repeat">
+                        <div class="blog__header">
+                            <a href="#">
+                            <img src="images/yamaha.jpg" alt="" class="blog__img">
+                            </a>
+                            <div class="blog__date">
+                                <div class="blog__date-day">15</div>
+                                Jan
+                            </div>
+                        </div>
+                        <div class="blog__content">
+                            <div class="blog__title">
+                                <a href="#">New synthysizer</a>
+                            </div>
+                            <div class="blog__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sunt voluptatibus facere incidunt quia harum.</div>
+                        </div>
+                        <div class="blog__footer">
+                            <div class="blog-stat">
+                                <span class="blog-stat__item">
+                                    <i class="far fa-eye"></i>315
+                                </span>
+                                <span class="blog-stat__item">
+                                    <i class="far fa-comments"></i>24
+                                </span>    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog__item _anim-items _anim-no-repeat">
+                        <div class="blog__header">
+                            <a href="#">
+                            <img src="images/yamaha.jpg" alt="" class="blog__img">
+                            </a>
+                            <div class="blog__date">
+                                <div class="blog__date-day">15</div>
+                                Jan
+                            </div>
+                        </div>
+                        <div class="blog__content">
+                            <div class="blog__title">
+                                <a href="#">New synthysizer</a>
+                            </div>
+                            <div class="blog__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sunt voluptatibus facere incidunt quia harum.</div>
+                        </div>
+                        <div class="blog__footer">
+                            <div class="blog-stat">
+                                <span class="blog-stat__item">
+                                    <i class="far fa-eye"></i>315
+                                </span>
+                                <span class="blog-stat__item">
+                                    <i class="far fa-comments"></i>24
+                                </span>    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog__item _anim-items _anim-items--2 _anim-no-repeat">
+                        <div class="blog__header">
+                            <a href="#">
+                            <img src="images/yamaha.jpg" alt="" class="blog__img">
+                            </a>
+                            <div class="blog__date">
+                                <div class="blog__date-day">15</div>
+                                Jan
+                            </div>
+                        </div>
+                        <div class="blog__content">
+                            <div class="blog__title">
+                                <a href="#">New synthysizer</a>
+                            </div>
+                            <div class="blog__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sunt voluptatibus facere incidunt quia harum.</div>
+                        </div>
+                        <div class="blog__footer">
+                            <div class="blog-stat">
+                                <span class="blog-stat__item">
+                                    <i class="far fa-eye"></i>315
+                                </span>
+                                <span class="blog-stat__item">
+                                    <i class="far fa-comments"></i>24
+                                </span>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- map -->
+        <section class="section section--purple">
+            <div class="container">
+                <div class="map _anim-items _anim-no-repeat">
+                    <h3 class="map__title">
+                        <i class="fas fa-map-marker-alt"></i>
+                        We on map
+                    </h3>
+                    <div style="position:relative;overflow:hidden;"><a href="https://yandex.by/maps/org/beer_house/1087456721/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Beer House</a><a href="https://yandex.by/maps/11311/norilsk/category/restaurant/184106394/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Ресторан в Норильске</a><a href="https://yandex.by/maps/11311/norilsk/category/food_delivery_service/184108273/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:28px;">Доставка еды и обедов в Норильске</a><iframe src="https://yandex.by/map-widget/v1/-/CCUuyYwglB" width="1200" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer section" id="contacts">
+        <div class="container">
+            <div class="latest__news">
+                <div class="follow">
+                    <h2 class="site__logo">Synth Wave</h2>
+                    <div class="site__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, voluptatibus officia aspernatur architecto adipisci quis unde illo expedita, quidem tenetur rerum quo. Accusantium non nulla dicta, distinctio consectetur omnis molestiae!</div>
+                    <div class="followers__wrapper">
+                        <div class="followers">15K folllowers</div>
+                        <div class="follow-us">
+                            <a href="#" class="follow-us__link" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="#" class="follow-us__link" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="follow-us__link" target="_blank">
+                                <i class="fab fa-vk"></i>
+                            </a>
+                            <a href="#" class="follow-us__link" target="_blank">
+                                <i class="fab fa-pinterest-p"></i>
+                            </a>
+                            <a href="#" class="follow-us__link" target="_blank">
+                                <i class="fab fa-soundcloud"></i>
+                            </a>
+                            <a href="#" class="follow-us__link" target="_blank">
+                                <i class="fab fa-spotify"></i>
+                            </a>
+                            <a href="#" class="follow-us__link" target="_blank">
+                                <i class="fab fa-deezer"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <form class="subscribe" action="/" method="post">
+                        <input class="email__input" type="email" placeholder="Your email">
+                        <button class="subscribe__btn" type="submit">SUBSCRIBE</button>
+                    </form>
+                </div>
+                <div class="blogs">
+                    <h3 class="blogs__title">BLOGS</h3>
+                    <div class="blogs__item">
+                        <a href="#" class="blog__link">
+                            <div class="blogs__img__wrapper">
+                                <img src="images/foxy.jpg" alt="">
+                            </div>
+                            <div class="blogs__item__description">
+                                <h4 class="blogs__item__title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, nisi.</h4>
+                                <div class="blogs__item__date">Jun 15 13:45</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="blogs__item">
+                        <a href="#" class="blog__link">
+                            <div class="blogs__img__wrapper">
+                                <img src="images/foxy1.jpg" alt="">
+                            </div>
+                            <div class="blogs__item__description">
+                                <h4 class="blogs__item__title">Lorem ipsum dolor, sit amet.</h4>
+                                <div class="blogs__item__date">Jul 18 16:30</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="blogs__item">
+                        <a href="#" class="blog__link">
+                            <div class="blogs__img__wrapper">
+                                <img src="images/foxy8.jpg" alt="">
+                            </div>
+                            <div class="blogs__item__description">
+                                <h4 class="blogs__item__title">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+                                <div class="blogs__item__date">Aug 30 19:20</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="instagram">
+                    <h3 class="instagram__title">INSTAGRAM</h3>
+                    <div class="instagram__item__wrapper">
+                        <a href="" class="instagram__item">
+                            <img src="images/instagram/1.jpg" alt="">
+                        </a>
+                        <a href="" class="instagram__item">
+                            <img src="images/instagram/2.jpg" alt="">
+                        </a>
+                        <a href="" class="instagram__item">
+                            <img src="images/instagram/3.jpg" alt="">
+                        </a>
+                        <a href="" class="instagram__item">
+                            <img src="images/instagram/4.jpg" alt="">
+                        </a>
+                        <a href="" class="instagram__item">
+                            <img src="images/instagram/5.jpg" alt="">
+                        </a>
+                        <a href="" class="instagram__item">
+                            <img src="images/instagram/6.jpg" alt="">
+                        </a>
+                        <a href="" class="instagram__item">
+                            <img src="images/instagram/7.jpg" alt="">
+                        </a>
+                        <a href="" class="instagram__item">
+                            <img src="images/instagram/8.jpg" alt="">
+                        </a>
+                        <a href="" class="instagram__item">
+                            <img src="images/instagram/9.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; copyright all rights reserved 2021. Synth Wave
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.min.js"></script>
+</body>
+</html>
